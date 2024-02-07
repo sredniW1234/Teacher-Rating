@@ -3,16 +3,24 @@ body{
 }
 div.Main{
     display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+div.Main div{
+    display: flex;
     flex-direction: row;
     /*flex-direction: column;*/
-    margin: 1rem;
     justify-content: center;
+
 }
 
 img.Teacher_Image{
     height: auto;
-    min-width: 300px;
+    min-width: 250px;
     max-width: 20vw;
+    border-radius: 10%;
+    box-shadow: 0 0 1rem black;
 }
 
 /*div.Main div.Image_Controls{*/
@@ -21,16 +29,27 @@ img.Teacher_Image{
 /*    align-items: center;*/
 /*}*/
 
-div.Main button{
-    background: #111111;
-    outline: none;
+div.Main div button {
+    /*background: #111111;*/
+    background: none;
+    align-self: center;
+    border-style: none;
+    height: 2rem;
+    color: darkslateblue;
+    font-size: 30px;
+    text-shadow: 0 0 0.3rem darkslateblue;
 }
 
 
+div.Main h1{
+    text-align: center;
+    color: #F9F6EE;
+}
 
 
-
-
+div.Main div.Rating_Controls input{
+    margin: 1%
+}
 
 
 
