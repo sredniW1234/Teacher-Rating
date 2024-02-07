@@ -1,0 +1,50 @@
+body{
+    background-color: #111111;
+}
+div.Main{
+    display: flex;
+    flex-direction: row;
+    /*flex-direction: column;*/
+    margin: 1rem;
+    justify-content: center;
+}
+
+img.Teacher_Image{
+    height: auto;
+    min-width: 300px;
+    max-width: 20vw;
+}
+
+/*div.Main div.Image_Controls{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*}*/
+
+div.Main button{
+    background: #111111;
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
