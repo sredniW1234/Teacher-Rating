@@ -46,12 +46,27 @@ div.Main h1{
     color: #F9F6EE;
 }
 
+/*div.Rating_Controls h1{*/
+/*    margin: 0.2rem;*/
+/*}*/
 
-div.Main div.Rating_Controls input{
-    margin: 1%
+div.Rating_Controls input{
+    display: none;
 }
 
+div.Rating_Controls label.Star_Label {
+    opacity: 0.1;
+}
 
+div.Rating_Controls img{
+    height: auto;
+    max-width: 36px;
+    margin: 0.2rem;
+}
+
+div.Rating_Controls input:checked + label {
+    opacity: 1;
+}
 
 
 
